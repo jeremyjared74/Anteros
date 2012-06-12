@@ -1,0 +1,290 @@
+a,  body, caption, cite, code, dd, del, dl, 
+div, dt, em, fieldset, form, h1, h2, h3, h4, 
+h5, h6, html, iframe, img, ins, table, tbody, 
+tfoot, thead, th, tr, tdvideo, tt, ul, var{
+background: transparent;
+border: 0 none;
+font-size: 100%;
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+vertical-align: top; 
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+table, table td { 
+padding:0;
+border:none;
+border-collapse:collapse;
+}
+img {
+vertical-align:top; 
+}
+sup,sub {
+line-height:0;
+}
+abbr,acronym {
+border-bottom:1px dotted #666;
+}
+address {
+font-style:italic;
+margin:0 0 1.5em;
+}
+pre {
+white-space:pre;
+margin:1.5em 0;
+}
+pre,code,tt {
+font:1em 'andale mono', 'lucida console', monospace;
+line-height:1.5;
+}
+li ul,li ol {
+margin:0 1.5em;
+}
+ul,ol {
+margin:0 1.5em 1.5em;
+}
+ul {
+list-style-type:disc;
+}
+ol {
+list-style-type:decimal;
+}
+dd {
+margin-left:1.5em;
+}
+table {
+margin-bottom:1.4em;
+width:100%;
+}
+thead th {
+background:#c3d9ff;
+}
+th,td,caption {
+padding:4px 10px 4px 5px;
+}
+tr.even td {
+background:#e5ecf9;
+}
+caption {
+background:#eee;
+}
+.small {
+font-size:.8em;
+margin-bottom:1.875em;
+line-height:1.875em;
+}
+.large {
+font-size:1.2em;
+line-height:2.5em;
+margin-bottom:1.25em;
+}
+.hide {
+display:none;
+}
+.highlight {
+background:#ff0;
+}
+.added {
+background:#060;
+color:#fff;
+}
+.removed {
+background:#900;
+color:#fff;
+}
+.first {
+margin-left:0;
+padding-left:0;
+}
+.last {
+margin-right:0;
+padding-right:0;
+}
+.top {
+margin-top:0;
+padding-top:0;
+}
+.bottom {
+margin-bottom:0;
+padding-bottom:0;
+}
+p,dl {
+margin:0 0 1.5em;
+}
+a:focus,a:hover,.loud {
+color:#000;
+}
+strong,dfn,dl dt,th {
+font-weight:700;
+}
+body {
+background:#fff;
+font-family:Arial, Helvetica, sans-serif;
+font-size:100%;
+line-height:1.125em;
+color:#242424;
+}
+/* Left & Right alignment */
+.fleft { float:left;}
+.fright { float:right;}
+.clear { clear:both;}
+.col-1, .col-2, .col-3 { float:left;}
+.alignright { text-align:right;}
+.aligncenter { text-align:center;}
+p {
+  margin-bottom:18px;
+}
+/*----- txt, links, lines, titles -----*/
+a {
+color:#f27f02;
+outline:none;
+}
+a:hover{
+background:#f4f4f4
+}
+h3 {
+font-size:1em;
+margin-bottom:6px;
+}
+h3 a { color:#242424; }
+h3 a:hover {
+text-shadow: 1px 1px 1px #888;
+}
+img:hover {
+border-color:#bbb;
+}
+h1, h2, h3, h4, h5 {
+font-family: 'Play', Arial, serif; 
+font-weight:700;
+}
+h1 {
+font-size:300%;
+margin-bottom:10px;
+line-height:300%;
+}
+h2 {
+font-size:250%;
+margin-bottom:10px;
+line-height:110%;
+}
+h3 {
+font-size:200%;
+margin-bottom:10px;
+line-height:110%;
+}
+h4 {
+font-size:150%;
+margin-bottom:10px;
+line-height:110%;
+}
+h5 {
+font-size:100%;
+margin-bottom:10px;
+line-height:110%;
+}
+h6 {
+font-size:90%;
+margin-bottom:10px;
+line-height:110%;
+}
+#page {
+width:610px;
+display:block;
+float:left;
+margin-left:-50px;
+}
+body.home p {
+font-family: 'Play', Arial, serif; 
+font-size:19px;
+line-height:22px;
+}
+/* Login Form */
+blockquote {
+color: #de7300;
+font-weight: bold;
+font-style: italic;
+margin: 1em 3em; 
+padding:20px;
+font-family:times, sans-serif;
+}
+blockquote p:before {
+content: '"'; 
+}
+blockquote p:after {
+content: '"'; 
+}
+blockquote:hover {
+background:#ededed;
+padding:18px;
+border:2px solid #de7300;
+border-radius:9px;
+}
+img.aligncenter {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+padding: 4px;
+}  
+img.alignright {
+   padding: 4px;
+   margin: 0 0 5px 5px;
+   display: inline;
+}
+img.alignleft {
+   padding: 4px;
+   margin: 0 5px 5px 0;
+   display: inline;
+}
+.alignright {
+   float: right;
+}
+.alignleft {
+   float: left;
+}
+.wp-caption {
+	border: 1px solid #ddd;
+	text-align: center;
+	background-color: #f3f3f3;
+	padding-top: 4px;
+	margin: 10px;
+	border-radius: 3px;
+}
+table { 
+border-collapse: separate; border-spacing: 0; 
+}
+caption, th, td { 
+text-align: left; font-weight:400; 
+}
+blockquote:before, blockquote:after, q:before, q:after { 
+content: ""; 
+}
+blockquote, q { 
+quotes: "" ""; 
+}
+img { 
+border: none; 
+}
+#page {
+max-width:570px;
+}
+#post {
+max-width:570px;
+}
+p {
+max-width:575px;
+}
+ul {
+max-width:570px;
+}
+ul li, ol li {
+max-width:570px;
+}
+blockquote {
+max-width:570px;
+}
