@@ -147,9 +147,12 @@ strong,dfn,dl dt,th {
 font-weight:700;
 }
 /* Getting the new tags to behave */
-article, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video{ display: block; }
+article, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, 
+hgroup, keygen, meter, nav, output, progress, section, source, video{ 
+display: block; 
+}
 mark, rp, rt, ruby, summary, time{ display: inline }
-/* Global properties ======================================================== */
+/* Global properties== */
 body {
 background:#212222;
 font-family:Arial, Helvetica, sans-serif;
@@ -157,7 +160,7 @@ font-size:100%;
 line-height:1.125em;
 color:#242424;
 }
-/* Global Structure ============================================================= */
+/* Global Structure === */
 .container {
 margin: 0 auto;
 position: relative;
@@ -217,7 +220,7 @@ h3 a { color:#242424; }
 h3 a:hover {
 text-shadow: 1px 1px 1px #888;
 }
-/*==================boxes====================*/
+/*= boxes =*/
 .main-box {
 border-top:5px solid #eaeaea;
 background:#fff;
@@ -227,7 +230,7 @@ width:100%;
 margin-left:12px;
 padding-bottom:18px;
 }
-/*===== gallery =====*/
+/*== gallery ==*/
 .roundabout-holder  {
 width:850px;
 height:496px;
@@ -250,7 +253,7 @@ width:100%;
 #content img:hover {
 border-color:#bbb;
 }
-/*============== MENU ==================*/
+/*== MENU ==*/
 #menu a {
 border:1px ridge #3d3d3d;
 }
@@ -295,15 +298,12 @@ position:absolute;
 top:-999em;
 float:right;
 width:170px;
-/* left offset of submenus
-need to match (see below) */
 }
 #menu ul ul li {
 width:300%!important;
 }
 #menu ul li:hover {
 visibility:inherit;
-/* fixes IE7 'sticky bug' */
 }
 #menu ul li {
 float:left;
@@ -318,8 +318,6 @@ width:140px;
 #menu ul li:hover ul {
 left:0;
 top:42px;
-/* match top ul list
-item height */
 z-index:99;
 }
 #menu ul li:hover li ul {
@@ -470,7 +468,6 @@ margin-bottom:100px;
 width:300px;
 padding:10px;
 }
-/*single post nav links */
 .navigation {
 display:block;
 width:100%;
@@ -546,7 +543,6 @@ padding:18px;
 border:2px solid #de7300;
 border-radius:9px;
 }
-/* here is where the chapter 8 example 1 image styles start */
 img.aligncenter {
 display: block;
 margin-left: auto;
@@ -569,7 +565,6 @@ float: right;
 .alignleft {
 float: left;
 }
-/* begin image gallery declarations  */
 .wp-caption {
 border: 1px solid #ddd;
 text-align: center;
@@ -589,7 +584,7 @@ line-height: 17px;
 padding: 0 4px 5px;
 margin: 0;
 }
-/* ==================== ROTATOR ==================== */
+/* == ROTATOR == */
 table {
 border-collapse: separate; border-spacing: 0;
 }
