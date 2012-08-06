@@ -1,147 +1,147 @@
-/* PHP STYLES */
-.php .de1, .php .de2 {
-margin:0; padding:0; 
-background:none; 
-vertical-align:top;
-color: #ffb400;
-}
-.php  {
-color: #006;
-font-family: Monaco,Lucida Console,monospace;
-font-size: 13px;
-line-height: 1.4em;
-border: 1px solid #9f9f9f;
-background-color: #f1f1f1;
-color: #e6e1dc;
-background-color: #2b2b2b;
-width:500px;
-overflow-x:scroll;
-}
-.php a:link {
-color: #ffb400;
-}
-.php a:hover {
-background-color: #f0f000;
-}
-.php .imp {
-font-weight: bold; color: red;
-}
-.php li, .php .li1 {
-font-weight: normal; 
-vertical-align:top;
-color: #ffd800;
-}
-.php .ln {
-width:1px;
-text-align:right;
-margin:0;
-padding:0 2px;
-vertical-align:top;
-}
-.php .li2 {
-font-weight: bold; 
-vertical-align:top;
-font-weight: bold; 
-color: #006060;
-}
-.php .kw1 {
-color: #b1b100;
-}
-.php .kw2 {
-color: #ededed; 
-font-weight: bold;
-}
-.php .kw3 {
-color: #fd2121;
-}
-.php .kw4 {
-color: #5df94d; 
-font-weight: bold;
-}
-.php .co1 {
-color: #ededed; font-style: italic;
-}
-.php .co2 {
-color: #ededed; 
-font-style: italic;
-}
-.php .co3 {
-color: #0681ff; 
-font-style: italic;
-}
-.php .co4 {
-color: #2bff72; 
-font-style: italic;
-}
-.php .coMULTI {
-color: #c9c9c9; 
-font-style: italic;
-}
-.php .es0 {
-color: #62d3eb; 
-font-weight: bold;
-}
-.php .es1 {
-color: #62d3eb;
-font-weight: bold;
-}
-.php .es2 {
-color: #d98eff; 
-font-weight: bold;
-}
-.php .es3 {
-color: #d98eff; 
-font-weight: bold;
-}
-.php .es4 {
-color: #00aaff; 
-font-weight: bold;
-}
-.php .es5 {
-color: #03abff; 
-font-weight: bold; 
-font-style: italic;
-}
-.php .es6 {
-color: #a3f2bd; 
-font-weight: bold;
-}
-.php .es_h {
-color: #bebeff; 
-font-weight: bold;
-}
-.php .br0 {
-color: #85fd85;
-}
-.php .sy0 {
-color: #57fc57;
-}
-.php .sy1 {
-color: #e0e0e0; font-weight: bold;
-}
-.php .st0 {
-color: #00c0ff;
-}
-.php .st_h {
-color: #47c9ff;
-}
-.php .nu0 {
-color: #ffbeff;}
-.php .nu8 {
-color: #40ffff;
-}
-.php .nu12 {
-color: #3ed9d9;
-}
-.php .nu19 {
-color:#ff7bff;
-}
-.php .me1 {
-color: #00e500;
-}
-.php .me2 {
-color: #00ec00;
-}
-.php .re0 {
-color: #68c4ff;
+/* PHP STYLES */
+.php .de1, .php .de2 {
+margin:0; padding:0;
+background:none;
+vertical-align:top;
+color: #ffb400;
+}
+.php  {
+color: #006;
+font-family: Monaco,Lucida Console,monospace;
+font-size: 13px;
+line-height: 1.4em;
+border: 1px solid #9f9f9f;
+background-color: #f1f1f1;
+color: #e6e1dc;
+background-color: #2b2b2b;
+width:500px;
+overflow-x:scroll;
+}
+.php a:link {
+color: #ffb400;
+}
+.php a:hover {
+background-color: #f0f000;
+}
+.php .imp {
+font-weight: bold; color: red;
+}
+.php li, .php .li1 {
+font-weight: normal;
+vertical-align:top;
+color: #ffd800;
+}
+.php .ln {
+width:1px;
+text-align:right;
+margin:0;
+padding:0 2px;
+vertical-align:top;
+}
+.php .li2 {
+font-weight: bold;
+vertical-align:top;
+font-weight: bold;
+color: #006060;
+}
+.php .kw1 {
+color: #b1b100;
+}
+.php .kw2 {
+color: #ededed;
+font-weight: bold;
+}
+.php .kw3 {
+color: #fd2121;
+}
+.php .kw4 {
+color: #5df94d;
+font-weight: bold;
+}
+.php .co1 {
+color: #ededed; font-style: italic;
+}
+.php .co2 {
+color: #ededed;
+font-style: italic;
+}
+.php .co3 {
+color: #0681ff;
+font-style: italic;
+}
+.php .co4 {
+color: #2bff72;
+font-style: italic;
+}
+.php .coMULTI {
+color: #c9c9c9;
+font-style: italic;
+}
+.php .es0 {
+color: #62d3eb;
+font-weight: bold;
+}
+.php .es1 {
+color: #62d3eb;
+font-weight: bold;
+}
+.php .es2 {
+color: #d98eff;
+font-weight: bold;
+}
+.php .es3 {
+color: #d98eff;
+font-weight: bold;
+}
+.php .es4 {
+color: #00aaff;
+font-weight: bold;
+}
+.php .es5 {
+color: #03abff;
+font-weight: bold;
+font-style: italic;
+}
+.php .es6 {
+color: #a3f2bd;
+font-weight: bold;
+}
+.php .es_h {
+color: #bebeff;
+font-weight: bold;
+}
+.php .br0 {
+color: #85fd85;
+}
+.php .sy0 {
+color: #57fc57;
+}
+.php .sy1 {
+color: #e0e0e0; font-weight: bold;
+}
+.php .st0 {
+color: #00c0ff;
+}
+.php .st_h {
+color: #47c9ff;
+}
+.php .nu0 {
+color: #ffbeff;}
+.php .nu8 {
+color: #40ffff;
+}
+.php .nu12 {
+color: #3ed9d9;
+}
+.php .nu19 {
+color:#ff7bff;
+}
+.php .me1 {
+color: #00e500;
+}
+.php .me2 {
+color: #00ec00;
+}
+.php .re0 {
+color: #68c4ff;
 }
